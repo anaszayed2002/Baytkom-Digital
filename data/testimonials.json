@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Eng. Khalid Al-Mansoor",
+      "ar": "م. خالد المنصور"
+    },
+    "company": {
+      "en": "Golden Beit Properties",
+      "ar": "عقارات البيت الذهبي"
+    },
+    "role": {
+      "en": "Managing Director",
+      "ar": "المدير التنفيذي"
+    },
+    "rating": 5,
+    "avatar": "assets/images/testimonials/avatar-1.jpg",
+    "text": {
+      "en": "Baytkom Digital transformed our online presence completely. Their deep understanding of real estate marketing, combined with AI video production, allowed us to reach over 3 million potential buyers and triple our monthly qualified leads. They are true partners in growth.",
+      "ar": "لقد أحدثت 'بيتكم ديجيتال' نقلة نوعية في حضورنا الرقمي بالكامل. إن فهمهم العميق للتسويق العقاري، بالإضافة إلى إنتاج فيديوهات الذاء الاصطناعي، مكّننا من الوصول لأكثر من 3 ملايين مشترٍ محتمل ومضاعفة عملائنا المهتمين ثلاث مرات شهرياً. إنهم شركاء حقيقيون في النجاح."
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Sarah El-Khoury",
+      "ar": "سارة الخوري"
+    },
+    "company": {
+      "en": "MeCafe Egypt",
+      "ar": "مي كافيه مصر"
+    },
+    "role": {
+      "en": "Marketing Director",
+      "ar": "مديرة التسويق"
+    },
+    "rating": 5,
+    "avatar": "assets/images/testimonials/avatar-2.jpg",
+    "text": {
+      "en": "Working with Baytkom Digital is an absolute pleasure. Their social media designs and marketing strategies capturing our specialty coffee culture were spot on. Our foot traffic increased by 65% in just a few months, and our Instagram feed has never looked so premium.",
+      "ar": "العمل مع 'بيتكم ديجيتال' متعة حقيقية. كانت تصميماتهم لوسائل التواصل الاجتماعي وإستراتيجيات التسويق التي تجسد ثقافة القهوة المختصة لدينا دقيقة ورائعة. زادت حركة زوار المقهى لدينا بنسبة 65% في بضعة أشهر فقط، ولم يسبق لحسابنا على إنستغرام أن بدا بهذا الرقي."
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Dr. Tariq Al-Jamil",
+      "ar": "د. طارق الجميل"
+    },
+    "company": {
+      "en": "MPK Developments",
+      "ar": "أم بي كي للتطوير العقاري"
+    },
+    "role": {
+      "en": "Founder & Chairman",
+      "ar": "المؤسس ورئيس مجلس الإدارة"
+    },
+    "rating": 5,
+    "avatar": "assets/images/testimonials/avatar-3.jpg",
+    "text": {
+      "en": "For our luxury residential projects, brand image is everything. Baytkom Digital delivered a magnificent visual identity system and managed our digital marketing with surgical precision. Their reporting is transparent, and their creative assets are of international design standards.",
+      "ar": "بالنسبة لمشاريعنا السكنية الفاخرة، فإن صورة العلامة التجارية هي كل شيء. قدمت لنا 'بيتكم ديجيتال' نظام هوية بصرية مذهلاً وأدارت تسويقنا الرقمي بدقة متناهية. تقاريرهم شفافة وأصولهم الإبداعية تضاهي معايير التصميم العالمية."
+    }
+  }
+]

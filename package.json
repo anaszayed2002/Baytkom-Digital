@@ -1,0 +1,19 @@
+{
+  "name": "baytkom-digital",
+  "version": "1.0.0",
+  "description": "Baytkom Digital - Premium Bilingual Agency Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx browser-sync start --server --files \"css/*.css, js/*.js, *.html\"",
+    "start": "npx browser-sync start --server --files \"css/*.css, js/*.js, *.html\""
+  },
+  "keywords": [
+    "agency",
+    "portfolio",
+    "bilingual",
+    "realestate",
+    "marketing"
+  ],
+  "author": "Baytkom Digital",
+  "license": "ISC"
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="من نحن - بيتكم ديجيتال. تعرف على قصتنا، رؤيتنا، وقيمنا الإستراتيجية كشريك رائد في التسويق الرقمي وتكنولوجيا الذكاء الاصطناعي.">
+  <title>من نحن | Baytkom Digital - About Us</title>
+  
+  <link rel="icon" type="image/png" href="assets/images/default-cover.jpg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- PAGE LOADER -->
+  <div class="loader-overlay" id="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- BACKGROUND GLOWS -->
+  <div class="bg-particles">
+    <div class="particle-orb orb-1"></div>
+    <div class="particle-orb orb-2"></div>
+    <div class="particle-orb orb-3"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fa-solid fa-house-laptop" style="color: #fff; font-size: 1.1rem;"></i></div>
+        <span>Baytkom Digital</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link" data-i18n="nav_home">الرئيسية</a>
+        <a href="about.html" class="nav-link active" data-i18n="nav_about">من نحن</a>
+        <a href="services.html" class="nav-link" data-i18n="nav_services">خدماتنا</a>
+        <a href="portfolio.html" class="nav-link" data-i18n="nav_portfolio">أعمالنا</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav_contact">تواصل معنا</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-switch" onclick="toggleLanguage()" id="lang-switch-btn" aria-label="Switch Language">
+          <i class="fa-solid fa-globe"></i>
+          <span>English</span>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- INNER PAGE HERO -->
+  <section class="section" style="padding-top: 10rem; padding-bottom: 3rem; text-align: center;">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-tag" data-i18n="about_tag">من نحن</span>
+        <h1 class="section-title" data-i18n="about_title">شريكك في النمو الرقمي</h1>
+        <p class="section-subtitle" data-i18n="about_tagline">نحن لا نتبع الاتجاهات، نحن نصنعها.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENCY STORY SECTION -->
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container">
+      <div class="grid grid-2 about-grid">
+        <div class="about-content reveal-left">
+          <h2 class="project-body-title" data-i18n="about_title" style="font-size: 2rem;">قصة بيتكم ديجيتال</h2>
+          <p class="about-text" data-i18n="about_desc" style="font-size: 1.05rem; line-height: 1.8;">
+            وكالة بيتكم ديجيتال هي وكالة خدمات تسويقية متكاملة متخصصة في مساعدة الشركات - وبخاصة شركات العقارات والشركات الطموحة - على الهيمنة على الفضاء الرقمي. نحن نجمع بين الفن والتكنولوجيا والذكاء الاصطناعي لتقديم حلول إبداعية تقود إلى نتائج أعمال حقيقية.
+          </p>
+          <p class="about-text" data-i18n="footer_desc" style="font-size: 1.05rem; line-height: 1.8; margin-top: 1rem;">
+            نحن نمزج بين الإبداع الفني والتكنولوجيا المتقدمة والذكاء الاصطناعي لتقديم إستراتيجيات تسويقية متميزة تفوق التوقعات وتدفع أعمالك نحو القمة.
+          </p>
+        </div>
+        
+        <div class="about-visual reveal-right">
+          <div class="about-image-wrapper">
+            <img src="assets/images/default-cover.jpg" alt="About Baytkom Digital" style="height: 380px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE / PROCESS SECTION -->
+  <section class="section" id="process" style="background: rgba(5, 2, 15, 0.4); border-block: 1px solid var(--border-glass);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-i18n="process_tag">رحلة العمل</span>
+        <h2 class="section-title" data-i18n="process_title">كيف نعمل معكم؟</h2>
+        <p class="section-subtitle" data-i18n="process_subtitle">إليك الإستراتيجية المنظمة التي نتبعها لنأخذ فكرتك من البداية إلى القمة.</p>
+      </div>
+
+      <div class="timeline flex-col">
+        <!-- Step 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-panel">
+            <div class="timeline-step">01</div>
+            <h4 class="timeline-title" data-i18n="step_1_title">1. الاكتشاف والتحليل</h4>
+            <p class="timeline-desc" data-i18n="step_1_desc">نجتمع معكم لفهم أهداف مشروعك، تحديد الجمهور المستهدف، وتحليل المنافسين في السوق.</p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-panel">
+            <div class="timeline-step">02</div>
+            <h4 class="timeline-title" data-i18n="step_2_title">2. بناء الإستراتيجية</h4>
+            <p class="timeline-desc" data-i18n="step_2_desc">نضع خطة تسويقية وفنية مفصلة تركز على تحقيق أكبر عائد ممكن على الاستثمار المخطط له.</p>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-panel">
+            <div class="timeline-step">03</div>
+            <h4 class="timeline-title" data-i18n="step_3_title">3. التصميم والإبداع</h4>
+            <p class="timeline-desc" data-i18n="step_3_desc">يقوم فريقنا بابتكار الهوية البصرية، وكتابة المحتوى، وتصميم واجهات وتجربة المستخدم.</p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-panel">
+            <div class="timeline-step">04</div>
+            <h4 class="timeline-title" data-i18n="step_4_title">4. التطوير والإنتاج</h4>
+            <p class="timeline-desc" data-i18n="step_4_desc">نبدأ برمجة المواقع، وتصوير وإنتاج الفيديوهات بالذكاء الاصطناعي وتجهيز الحملات الإعلانية.</p>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-panel">
+            <div class="timeline-step">05</div>
+            <h4 class="timeline-title" data-i18n="step_5_title">5. الإطلاق والتدشين</h4>
+            <p class="timeline-desc" data-i18n="step_5_desc">نطلق الحملات الإعلانية وننشر المواقع ونفعل خطط النشر الرقمية بأعلى مستويات الجودة.</p>
+          </div>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-panel">
+            <div class="timeline-step">06</div>
+            <h4 class="timeline-title" data-i18n="step_6_title">6. التحسين والتطوير</h4>
+            <p class="timeline-desc" data-i18n="step_6_desc">نراقب الأداء بدقة، ونحلل البيانات، ونقوم بالتحسين المستمر للإعلانات لضمان أفضل النتائج.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="section">
+    <div class="container" style="text-align: center;">
+      <div class="glass-panel reveal" style="padding: 4rem 2rem; max-width: 900px; margin: 0 auto; border-color: var(--border-primary-glow);">
+        <h2 class="section-title" data-i18n="contact_title">لنبدأ مشروعك القادم معاً</h2>
+        <p class="section-subtitle" style="margin-bottom: 2.5rem;" data-i18n="contact_subtitle">تواصل معنا اليوم لمناقشة أهدافك والحصول على استشارة تسويقية مجانية من خبرائنا.</p>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="contact.html" class="btn btn-primary">
+            <span data-i18n="nav_contact">تواصل معنا الآن</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </a>
+          <a href="https://wa.me/201055565537" target="_blank" class="btn btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="btn_whatsapp">واتساب مباشر</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="grid footer-grid">
+        <div class="footer-logo-desc">
+          <a href="index.html" class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-house-laptop" style="color: #fff; font-size: 1.1rem;"></i></div>
+            <span>Baytkom Digital</span>
+          </a>
+          <p class="footer-desc" data-i18n="footer_desc">
+            نحن نمزج بين الإبداع الفني والتكنولوجيا المتقدمة والذكاء الاصطناعي لتقديم إستراتيجيات تسويقية متميزة تفوق التوقعات وتدفع أعمالك نحو القمة.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_quick_links">روابط سريعة</h4>
+          <div class="footer-links">
+            <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+            <a href="about.html" data-i18n="nav_about">من نحن</a>
+            <a href="services.html" data-i18n="nav_services">خدماتنا</a>
+            <a href="portfolio.html" data-i18n="nav_portfolio">أعمالنا</a>
+            <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_services">خدماتنا المميزة</h4>
+          <div class="footer-links">
+            <a href="services.html" data-i18n="srv_branding_title">العلامة التجارية والهوية</a>
+            <a href="services.html" data-i18n="srv_social_title">التسويق عبر منصات التواصل</a>
+            <a href="services.html" data-i18n="srv_ads_title">الإعلانات المدفوعة</a>
+            <a href="services.html" data-i18n="srv_web_title">تطوير المواقع الإلكترونية</a>
+            <a href="services.html" data-i18n="srv_ai_title">فيديوهات الذكاء الاصطناعي</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_contact_info">معلومات الاتصال</h4>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <p dir="ltr">01055565537</p>
+          </div>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <p>baytkomdigital@gmail.com</p>
+          </div>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <p data-i18n="contact_address_val">القاهرة، جمهورية مصر العربية</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_rights">جميع الحقوق محفوظة لوكالة بيتكم ديجيتال © 2026.</p>
+        <div class="social-links" style="gap: 0.75rem;">
+          <a href="https://facebook.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://tiktok.com/@baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://youtube.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/201055565537" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- CORE SCRIPTS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

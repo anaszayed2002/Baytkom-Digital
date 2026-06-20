@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="خدماتنا - بيتكم ديجيتال. نقدّم باقات تصميم الهوية التجارية، وإدارة منصات التواصل، وإعلانات ميتا وتيك توك، وتطوير مواقع الويب المتميزة بالذكاء الاصطناعي.">
+  <title>خدماتنا | Baytkom Digital - Services</title>
+  
+  <link rel="icon" type="image/png" href="assets/images/default-cover.jpg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- PAGE LOADER -->
+  <div class="loader-overlay" id="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- BACKGROUND GLOWS -->
+  <div class="bg-particles">
+    <div class="particle-orb orb-1"></div>
+    <div class="particle-orb orb-2"></div>
+    <div class="particle-orb orb-3"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fa-solid fa-house-laptop" style="color: #fff; font-size: 1.1rem;"></i></div>
+        <span>Baytkom Digital</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link" data-i18n="nav_home">الرئيسية</a>
+        <a href="about.html" class="nav-link" data-i18n="nav_about">من نحن</a>
+        <a href="services.html" class="nav-link active" data-i18n="nav_services">خدماتنا</a>
+        <a href="portfolio.html" class="nav-link" data-i18n="nav_portfolio">أعمالنا</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav_contact">تواصل معنا</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-switch" onclick="toggleLanguage()" id="lang-switch-btn" aria-label="Switch Language">
+          <i class="fa-solid fa-globe"></i>
+          <span>English</span>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES HERO -->
+  <section class="section" style="padding-top: 10rem; padding-bottom: 3rem; text-align: center;">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-tag" data-i18n="services_tag">خدماتنا</span>
+        <h1 class="section-title" data-i18n="services_title">حلول تسويقية متكاملة</h1>
+        <p class="section-subtitle" data-i18n="services_subtitle">نقدم مجموعة واسعة من الخدمات المصممة خصيصاً لنمو علامتك التجارية واكتساح السوق الرقمي.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAILED SERVICES GRID -->
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container">
+      <div class="grid grid-3">
+        <!-- 1. Branding & Identity -->
+        <div class="service-card glass-panel reveal">
+          <div class="service-icon-box"><i class="fa-solid fa-bezier-curve"></i></div>
+          <h3 class="service-title" data-i18n="srv_branding_title">العلامة التجارية والهوية</h3>
+          <p class="service-desc" data-i18n="cap_branding">تصميم وتطوير الهويات التجارية وتطبيقاتها لجعل شركتك علامة تجارية فريدة تعلق بأذهان العملاء.</p>
+          <div class="service-list">
+            <div class="service-list-item" data-i18n="srv_branding_1">تصميم الشعارات الفريدة</div>
+            <div class="service-list-item" data-i18n="srv_branding_2">كتيب إرشادات الهوية المتكامل</div>
+            <div class="service-list-item" data-i18n="srv_branding_3">الهوية البصرية وتطبيقاتها</div>
+          </div>
+        </div>
+
+        <!-- 2. Social Media Marketing -->
+        <div class="service-card glass-panel reveal delay-100">
+          <div class="service-icon-box"><i class="fa-solid fa-share-nodes"></i></div>
+          <h3 class="service-title" data-i18n="srv_social_title">التسويق عبر منصات التواصل</h3>
+          <p class="service-desc" data-i18n="cap_social">بناء الخطط التسويقية وإدارة منصات السوشيال ميديا بصناعة محتوى تفاعلي يومي وتصاميم حديثة.</p>
+          <div class="service-list">
+            <div class="service-list-item" data-i18n="srv_social_1">صناعة المحتوى الإبداعي</div>
+            <div class="service-list-item" data-i18n="srv_social_2">إدارة المجتمعات والتفاعل</div>
+            <div class="service-list-item" data-i18n="srv_social_3">الخطط الشهرية وجدول النشر</div>
+          </div>
+        </div>
+
+        <!-- 3. Paid Advertising -->
+        <div class="service-card glass-panel reveal delay-200">
+          <div class="service-icon-box"><i class="fa-solid fa-bullseye"></i></div>
+          <h3 class="service-title" data-i18n="srv_ads_title">الإعلانات المدفوعة</h3>
+          <p class="service-desc" data-i18n="cap_ads">حملات إعلانية متخصصة موجهة بدقة للفئات المستهدفة لضمان أفضل تحويل وزيادة المبيعات بأقل تكلفة.</p>
+          <div class="service-list">
+            <div class="service-list-item" data-i18n="srv_ads_1">إعلانات فيسبوك وإنستغرام</div>
+            <div class="service-list-item" data-i18n="srv_ads_2">حملات تيك توك وجوجل</div>
+            <div class="service-list-item" data-i18n="srv_ads_3">جلب العملاء المحتملين (Leads)</div>
+          </div>
+        </div>
+
+        <!-- 4. Website Development -->
+        <div class="service-card glass-panel reveal">
+          <div class="service-icon-box"><i class="fa-solid fa-code"></i></div>
+          <h3 class="service-title" data-i18n="srv_web_title">تطوير المواقع الإلكترونية</h3>
+          <p class="service-desc" data-i18n="cap_web">بناء وبرمجة مواقع إلكترونية سريعة ومبهرة ومتوافقة تماماً مع محركات البحث والهواتف المحمولة.</p>
+          <div class="service-list">
+            <div class="service-list-item" data-i18n="srv_web_1">المواقع التعريفية للشركات</div>
+            <div class="service-list-item" data-i18n="srv_web_2">صفحات هبوط عالية التحويل</div>
+            <div class="service-list-item" data-i18n="srv_web_3">مواقع للمشاريع العقارية</div>
+          </div>
+        </div>
+
+        <!-- 5. UI/UX Design -->
+        <div class="service-card glass-panel reveal delay-100">
+          <div class="service-icon-box"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3 class="service-title" data-i18n="srv_uiux_title">تصميم واجهات المستخدم UI/UX</h3>
+          <p class="service-desc" data-i18n="cap_strategy">تخطيط وتصميم تجربة مستخدم سلسلة وواجهات عصرية تزيد من تفاعل زوار موقعك وتسهل تصفحهم.</p>
+          <div class="service-list">
+            <div class="service-list-item" data-i18n="srv_uiux_1">دراسة وتجربة المستخدم</div>
+            <div class="service-list-item" data-i18n="srv_uiux_2">تصميم النماذج والهياكل السلكية</div>
+            <div class="service-list-item" data-i18n="srv_uiux_3">تصميم واجهات جذابة ومريحة</div>
+          </div>
+        </div>
+
+        <!-- 6. AI Content Production -->
+        <div class="service-card glass-panel reveal delay-200">
+          <div class="service-icon-box"><i class="fa-solid fa-robot"></i></div>
+          <h3 class="service-title" data-i18n="srv_ai_title">إنتاج المحتوى بالذكاء الاصطناعي</h3>
+          <p class="service-desc" data-i18n="cap_ai">صناعة وتوليف مقاطع فيديو تسويقية مبتكرة وإعلانات سينمائية تعزز التفاعل وتجذب الانتباه باستخدام الذكاء الاصطناعي.</p>
+          <div class="service-list">
+            <div class="service-list-item" data-i18n="srv_ai_1">فيديوهات الذكاء الاصطناعي</div>
+            <div class="service-list-item" data-i18n="srv_ai_2">الإعلانات الرقمية المبتكرة</div>
+            <div class="service-list-item" data-i18n="srv_ai_3">الموشن جرافيكس المعزز بـ AI</div>
+          </div>
+        </div>
+
+        <!-- 7. Full Marketing Solutions -->
+        <div class="service-card glass-panel reveal" style="grid-column: 1 / -1; max-width: 800px; margin: 0 auto; width: 100%;">
+          <div class="service-icon-box"><i class="fa-solid fa-chart-line"></i></div>
+          <h3 class="service-title" data-i18n="srv_full_title">حلول التسويق الكاملة</h3>
+          <p class="service-desc" data-i18n="footer_desc">نحن نمزج بين الإبداع الفني والتكنولوجيا المتقدمة والذكاء الاصطناعي لتقديم إستراتيجيات تسويقية متميزة تفوق التوقعات وتدفع أعمالك نحو القمة.</p>
+          <div class="service-list" style="grid-template-columns: repeat(3, 1fr); display: grid; gap: 1rem;">
+            <div class="service-list-item" data-i18n="srv_full_1">إستراتيجية تسويقية متكاملة</div>
+            <div class="service-list-item" data-i18n="srv_full_2">صناعة وإدارة الحملات الشاملة</div>
+            <div class="service-list-item" data-i18n="srv_full_3">التحليلات وإعداد التقارير الدورية</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container" style="text-align: center;">
+      <div class="glass-panel reveal" style="padding: 4rem 2rem; max-width: 900px; margin: 0 auto; border-color: var(--border-primary-glow);">
+        <h2 class="section-title" data-i18n="contact_title">لنبدأ مشروعك القادم معاً</h2>
+        <p class="section-subtitle" style="margin-bottom: 2.5rem;" data-i18n="contact_subtitle">تواصل معنا اليوم لمناقشة أهدافك والحصول على استشارة تسويقية مجانية من خبرائنا.</p>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="contact.html" class="btn btn-primary">
+            <span data-i18n="nav_contact">تواصل معنا الآن</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </a>
+          <a href="https://wa.me/201055565537" target="_blank" class="btn btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="btn_whatsapp">واتساب مباشر</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="grid footer-grid">
+        <div class="footer-logo-desc">
+          <a href="index.html" class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-house-laptop" style="color: #fff; font-size: 1.1rem;"></i></div>
+            <span>Baytkom Digital</span>
+          </a>
+          <p class="footer-desc" data-i18n="footer_desc">
+            نحن نمزج بين الإبداع الفني والتكنولوجيا المتقدمة والذكاء الاصطناعي لتقديم إستراتيجيات تسويقية متميزة تفوق التوقعات وتدفع أعمالك نحو القمة.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_quick_links">روابط سريعة</h4>
+          <div class="footer-links">
+            <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+            <a href="about.html" data-i18n="nav_about">من نحن</a>
+            <a href="services.html" data-i18n="nav_services">خدماتنا</a>
+            <a href="portfolio.html" data-i18n="nav_portfolio">أعمالنا</a>
+            <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_services">خدماتنا المميزة</h4>
+          <div class="footer-links">
+            <a href="services.html" data-i18n="srv_branding_title">العلامة التجارية والهوية</a>
+            <a href="services.html" data-i18n="srv_social_title">التسويق عبر منصات التواصل</a>
+            <a href="services.html" data-i18n="srv_ads_title">الإعلانات المدفوعة</a>
+            <a href="services.html" data-i18n="srv_web_title">تطوير المواقع الإلكترونية</a>
+            <a href="services.html" data-i18n="srv_ai_title">فيديوهات الذكاء الاصطناعي</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_contact_info">معلومات الاتصال</h4>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <p dir="ltr">01055565537</p>
+          </div>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <p>baytkomdigital@gmail.com</p>
+          </div>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <p data-i18n="contact_address_val">القاهرة، جمهورية مصر العربية</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_rights">جميع الحقوق محفوظة لوكالة بيتكم ديجيتال © 2026.</p>
+        <div class="social-links" style="gap: 0.75rem;">
+          <a href="https://facebook.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://tiktok.com/@baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://youtube.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/201055565537" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- CORE SCRIPTS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

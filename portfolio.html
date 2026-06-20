@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أعمالنا - بيتكم ديجيتال. استعرض معرض المشروعات والحملات التسويقية والهويات البصرية وتطوير الويب لشركائنا وعملائنا.">
+  <title>أعمالنا | Baytkom Digital - Portfolio</title>
+  
+  <link rel="icon" type="image/png" href="assets/images/default-cover.jpg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- PAGE LOADER -->
+  <div class="loader-overlay" id="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- BACKGROUND GLOWS -->
+  <div class="bg-particles">
+    <div class="particle-orb orb-1"></div>
+    <div class="particle-orb orb-2"></div>
+    <div class="particle-orb orb-3"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><i class="fa-solid fa-house-laptop" style="color: #fff; font-size: 1.1rem;"></i></div>
+        <span>Baytkom Digital</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link" data-i18n="nav_home">الرئيسية</a>
+        <a href="about.html" class="nav-link" data-i18n="nav_about">من نحن</a>
+        <a href="services.html" class="nav-link" data-i18n="nav_services">خدماتنا</a>
+        <a href="portfolio.html" class="nav-link active" data-i18n="nav_portfolio">أعمالنا</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav_contact">تواصل معنا</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-switch" onclick="toggleLanguage()" id="lang-switch-btn" aria-label="Switch Language">
+          <i class="fa-solid fa-globe"></i>
+          <span>English</span>
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PORTFOLIO HERO -->
+  <section class="section" style="padding-top: 10rem; padding-bottom: 3rem; text-align: center;">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-tag" data-i18n="portfolio_tag">أعمالنا</span>
+        <h1 class="section-title" data-i18n="portfolio_title">معرض الإبداع</h1>
+        <p class="section-subtitle" data-i18n="portfolio_subtitle">شاهد كيف ساعدنا شركائنا في تحويل أهدافهم إلى إنجازات بصرية ونتائج مالية ملموسة.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO FILTER & GRID SECTION -->
+  <section class="section" style="padding-top: 2rem; padding-bottom: 6rem;">
+    <div class="container">
+      <!-- Category Filter system -->
+      <div class="portfolio-filter reveal" id="portfolio-filter">
+        <button class="filter-btn active" data-filter="all" data-i18n="filter_all">الكل</button>
+        <button class="filter-btn" data-filter="branding" data-i18n="filter_branding">الهوية التجارية</button>
+        <button class="filter-btn" data-filter="social-media" data-i18n="filter_social">وسائل التواصل</button>
+        <button class="filter-btn" data-filter="websites" data-i18n="filter_websites">المواقع الإلكترونية</button>
+        <button class="filter-btn" data-filter="ai-videos" data-i18n="filter_aivideos">فيديوهات AI</button>
+        <button class="filter-btn" data-filter="advertising" data-i18n="filter_advertising">الإعلانات</button>
+      </div>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid" id="portfolio-grid" data-featured-only="false">
+        <!-- Rendered Dynamically via portfolio.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="grid footer-grid">
+        <div class="footer-logo-desc">
+          <a href="index.html" class="logo">
+            <div class="logo-icon"><i class="fa-solid fa-house-laptop" style="color: #fff; font-size: 1.1rem;"></i></div>
+            <span>Baytkom Digital</span>
+          </a>
+          <p class="footer-desc" data-i18n="footer_desc">
+            نحن نمزج بين الإبداع الفني والتكنولوجيا المتقدمة والذكاء الاصطناعي لتقديم إستراتيجيات تسويقية متميزة تفوق التوقعات وتدفع أعمالك نحو القمة.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_quick_links">روابط سريعة</h4>
+          <div class="footer-links">
+            <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+            <a href="about.html" data-i18n="nav_about">من نحن</a>
+            <a href="services.html" data-i18n="nav_services">خدماتنا</a>
+            <a href="portfolio.html" data-i18n="nav_portfolio">أعمالنا</a>
+            <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_services">خدماتنا المميزة</h4>
+          <div class="footer-links">
+            <a href="services.html" data-i18n="srv_branding_title">العلامة التجارية والهوية</a>
+            <a href="services.html" data-i18n="srv_social_title">التسويق عبر منصات التواصل</a>
+            <a href="services.html" data-i18n="srv_ads_title">الإعلانات المدفوعة</a>
+            <a href="services.html" data-i18n="srv_web_title">تطوير المواقع الإلكترونية</a>
+            <a href="services.html" data-i18n="srv_ai_title">فيديوهات الذكاء الاصطناعي</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title" data-i18n="footer_contact_info">معلومات الاتصال</h4>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <p dir="ltr">01055565537</p>
+          </div>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <p>baytkomdigital@gmail.com</p>
+          </div>
+          <div class="footer-contact-item">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <p data-i18n="contact_address_val">القاهرة، جمهورية مصر العربية</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_rights">جميع الحقوق محفوظة لوكالة بيتكم ديجيتال © 2026.</p>
+        <div class="social-links" style="gap: 0.75rem;">
+          <a href="https://facebook.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://tiktok.com/@baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://youtube.com/baytkom.digital" target="_blank" class="social-icon" style="width:36px; height:36px; font-size:0.9rem;"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/201055565537" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- CORE SCRIPTS -->
+  <script src="js/main.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "designs",
+    "number": 500,
+    "suffix": "+",
+    "title": {
+      "en": "Social Media Designs",
+      "ar": "تصميم شبكات التواصل"
+    }
+  },
+  {
+    "id": "ai-videos",
+    "number": 100,
+    "suffix": "+",
+    "title": {
+      "en": "AI Videos Produced",
+      "ar": "فيديو ذكاء اصطناعي"
+    }
+  },
+  {
+    "id": "brands",
+    "number": 4,
+    "suffix": "+",
+    "title": {
+      "en": "Brands Managed",
+      "ar": "علامات تجارية نديرها"
+    }
+  },
+  {
+    "id": "assets",
+    "number": 1000,
+    "suffix": "+",
+    "title": {
+      "en": "Creative Assets",
+      "ar": "أصول إبداعية مصممة"
+    }
+  },
+  {
+    "id": "reach",
+    "number": 10,
+    "suffix": "M+",
+    "title": {
+      "en": "Digital Reach",
+      "ar": "الوصول الرقمي"
+    }
+  }
+]

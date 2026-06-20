@@ -1,0 +1,192 @@
+[
+  {
+    "id": "golden-beit",
+    "name": {
+      "en": "Golden Beit",
+      "ar": "Golden Beit"
+    },
+    "category": {
+      "en": "Real Estate Marketing",
+      "ar": "تسويق عقاري"
+    },
+    "categoryKey": "real-estate",
+    "description": {
+      "en": "A premium marketing and brand positioning campaign for Golden Beit, a luxury real estate brokerage. We combined AI-driven video content, custom high-converting landing pages, and highly targeted advertising to generate premium qualified leads and establish them as market leaders.",
+      "ar": "حملة تسويقية متميزة وتحديد مكانة العلامة التجارية لشركة 'البيت الذهبي'، وهي شركة وساطة عقارية فاخرة. قمنا بالجمع بين محتوى الفيديو المدعوم بالذكاء الاصطناعي، وصفحات الهبوط المخصصة عالية التحويل، والإعلانات المستهدفة بدقة لجذب عملاء محتملين متميزين وترسيخ مكانتهم كرواد في السوق."
+    },
+    "services": {
+      "en": [
+        "Branding",
+        "Visual Identity",
+        "Social Media Management",
+        "Paid Ads",
+        "Website Development",
+        "AI Content Production"
+      ],
+      "ar": [
+        "بناء العلامة التجارية",
+        "الهوية البصرية",
+        "إدارة منصات التواصل الاجتماعي",
+        "الإعلانات المدفوعة",
+        "تطوير المواقع الإلكترونية",
+        "إنتاج المحتوى بالذكاء الاصطناعي"
+      ]
+    },
+    "results": {
+      "en": [
+        { "metric": "Total Reach", "value": "3.4M+" },
+        { "metric": "Qualified Leads", "value": "15,800+" },
+        { "metric": "Sales Conversion", "value": "+145%" }
+      ],
+      "ar": [
+        { "metric": "إجمالي الوصول", "value": "3.4 مليون+" },
+        { "metric": "العملاء المهتمين", "value": "15,800+" },
+        { "metric": "تحويل المبيعات", "value": "+145%" }
+      ]
+    },
+    "featured": true,
+    "year": "2025"
+  },
+  {
+    "id": "mpk",
+    "name": {
+      "en": "MPK",
+      "ar": "MPK"
+    },
+    "category": {
+      "en": "Real Estate Development",
+      "ar": "تطوير عقاري"
+    },
+    "categoryKey": "real-estate",
+    "description": {
+      "en": "For MPK Real Estate Development, we crafted a prestigious brand identity system and a holistic social media management strategy. Our focus was on highlighting their architectural excellence and luxury residential projects through stunning renders and high-production value marketing collateral.",
+      "ar": "بالنسبة لشركة 'أم بي كي' للتطوير العقاري، صممنا نظام هوية تجارية مرموقة وإستراتيجية شاملة لإدارة وسائل التواصل الاجتماعي. كان تركيزنا ينصب على إبراز تميزهم المعماري ومشاريعهم السكنية الفاخرة من خلال العروض البصرية المذهلة والمواد التسويقية ذات الإنتاج الفاخر."
+    },
+    "services": {
+      "en": [
+        "Branding",
+        "Identity Design",
+        "Social Media Management",
+        "Website Development",
+        "AI Video Production",
+        "Paid Ads"
+      ],
+      "ar": [
+        "بناء العلامة التجارية",
+        "تصميم الهوية",
+        "إدارة منصات التواصل الاجتماعي",
+        "تطوير المواقع الإلكترونية",
+        "إنتاج الفيديو بالذكاء الاصطناعي",
+        "الإعلانات المدفوعة"
+      ]
+    },
+    "results": {
+      "en": [
+        { "metric": "Brand Awareness", "value": "+220%" },
+        { "metric": "Engagement Rate", "value": "8.7%" },
+        { "metric": "Direct Inquiries", "value": "4,200+" }
+      ],
+      "ar": [
+        { "metric": "الوعي بالعلامة", "value": "+220%" },
+        { "metric": "معدل التفاعل", "value": "8.7%" },
+        { "metric": "الاستفسارات المباشرة", "value": "4,200+" }
+      ]
+    },
+    "featured": true,
+    "year": "2025"
+  },
+  {
+    "id": "baytkom",
+    "name": {
+      "en": "Baytkom",
+      "ar": "Baytkom"
+    },
+    "category": {
+      "en": "Real Estate Marketing",
+      "ar": "تسويق عقاري"
+    },
+    "categoryKey": "real-estate",
+    "description": {
+      "en": "An end-to-end digital acquisition campaign for Baytkom Properties. We deployed hyper-targeted advertising campaigns across TikTok, Instagram, and Google Search, driving highly qualified buyers to their latest villa projects and developing a luxury brand perception.",
+      "ar": "حملة استقطاب رقمية متكاملة لشركة بيتكم العقارية. قمنا بنشر حملات إعلانية عالية الاستهداف عبر تيك توك، وإنستغرام، وبحث جوجل، مما دفع المشترين المؤهلين إلى أحدث مشاريع الفلل الخاصة بهم وبناء تصور فخم للعلامة التجارية."
+    },
+    "services": {
+      "en": [
+        "Branding",
+        "Social Media",
+        "Advertising Campaigns",
+        "Website Development",
+        "AI Video Production"
+      ],
+      "ar": [
+        "بناء العلامة التجارية",
+        "منصات التواصل الاجتماعي",
+        "الحملات الإعلانية",
+        "تطوير المواقع الإلكترونية",
+        "إنتاج الفيديو بالذكاء الاصطناعي"
+      ]
+    },
+    "results": {
+      "en": [
+        { "metric": "ROAS (Ads Return)", "value": "4.8x" },
+        { "metric": "Video Views", "value": "1.2M+" },
+        { "metric": "Properties Sold", "value": "34 Units" }
+      ],
+      "ar": [
+        { "metric": "العائد على الإعلانات", "value": "4.8x" },
+        { "metric": "مشاهدات الفيديو", "value": "1.2 مليون+" },
+        { "metric": "الوحدات المباعة", "value": "34 وحدة" }
+      ]
+    },
+    "featured": true,
+    "year": "2026"
+  },
+  {
+    "id": "mecafe",
+    "name": {
+      "en": "MeCafe",
+      "ar": "MeCafe"
+    },
+    "category": {
+      "en": "Cafe & Restaurant",
+      "ar": "مقهى ومطعم"
+    },
+    "categoryKey": "hospitality",
+    "description": {
+      "en": "A vibrant and creative digital relaunch for MeCafe, a premium specialty coffee brand. We developed mouth-watering social media designs, high-end commercial photo shoot styling, and interactive storytelling campaigns that turned casual visitors into loyal brand advocates.",
+      "ar": "إطلاق رقمي حيوي ومبتكر لـ 'مي كافيه'، وهي علامة تجارية متميزة للقهوة المختصة. قمنا بتطوير تصميمات جذابة لوسائل التواصل الاجتماعي، وتنسيق جلسات تصوير تجارية راقية، وحملات سرد قصصي تفاعلية حولت الزوار العاديين إلى عشاق أوفياء للعلامة التجارية."
+    },
+    "services": {
+      "en": [
+        "Branding",
+        "Social Media Designs",
+        "Marketing Content",
+        "Website Development",
+        "AI Video Production",
+        "Paid Ads"
+      ],
+      "ar": [
+        "بناء العلامة التجارية",
+        "تصاميم التواصل الاجتماعي",
+        "المحتوى التسويقي",
+        "تطوير المواقع الإلكترونية",
+        "إنتاج الفيديو بالذكاء الاصطناعي",
+        "الإعلانات المدفوعة"
+      ]
+    },
+    "results": {
+      "en": [
+        { "metric": "Foot Traffic Increase", "value": "+65%" },
+        { "metric": "Instagram Followers", "value": "+18.5K" },
+        { "metric": "UGC Content Generated", "value": "550+" }
+      ],
+      "ar": [
+        { "metric": "زيادة زوار المقهى", "value": "+65%" },
+        { "metric": "متابعي إنستغرام", "value": "+18.5K" },
+        { "metric": "المحتوى المنتج من العملاء", "value": "550+" }
+      ]
+    },
+    "featured": true,
+    "year": "2026"
+  }
+]
